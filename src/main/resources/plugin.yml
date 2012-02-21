@@ -1,8 +1,9 @@
 name: RegionWarp
 main: de.philworld.bukkit.regionwarp.RegionWarp
-version: 0.0.1
+version: $MAVEN-VERSION-NUMBER$
 depend:
    - WorldGuard
+   - WorldEdit
    
 commands:
     reg:
